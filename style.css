@@ -1,0 +1,17 @@
+    h1 { 
+    font-size: 50px;
+    background-color: rgb(140, 230, 140);
+    color: cadetblue;
+    .cite{
+        padding-left: 10px;
+        padding-top: 5px; 
+    }
+    *{
+        color:rgb(27, 01, 11);
+    }
+    h2~p{
+        background-color: rgb(247, 158, 173);
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    

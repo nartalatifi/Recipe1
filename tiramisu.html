@@ -5,12 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiramisu</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            background-color: aliceblue;
+        }
+        #title{background-color: rgb(247, 158, 173);
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        }
+        p[class]{
+            color: rgb(224, 71, 105);
+        }
+        a[href^='https']{
+            color: rgb(32, 151, 111);
+        }
+        h1{
+            padding-bottom: 20px;
+
+            border: 9px dotted rgb(99, 79, 79);
+            padding: 10px 5px 5px 10px;
+        }
+        
+        body{
+            margin: 0px 100px;
+        }
+
+        h1::first-letter{
+            font-size: 50px;
+        }
+
+        *{
+            font-family: 'Inter Tight', sans-serif;
+        }
+
+    </style>
 </head>
-<body style="background-color: rgb(243, 202, 209);">
+<body>
     <table width="1200" align="center">
         <tr>
             <td>
-                <h1 id="back" style="background-color: rgb(247, 158, 173);">Tiramisu</h1>
+                <h1 id="back">Tiramisu</h1>
             </td>
         </tr>
         <tr>
@@ -46,7 +85,7 @@
                 <p>
                     A couple months ago,I was sent into a new cookbook called Happiness is Baking.This cookbook includes Maida Heatter's favorite recipes with the foreword written by Dorie Greenspan.I,unsuprisingly,immediately fell in love with my newest cookbook.It's a collection of 100 foolproof and classic desserts including cookies,cakes,muffins,pies,tarts,and more that range from simple everyday cookies to outrageously chocolate souffle cake.
                 </p>
-                    <h3>Ingredients</h3>
+                    <h3><p class="title">Ingredients</p></h3>
                 <ul>
                     <li>1 and 1/4 cups(300ml) very strongly prepared espresso,warm or room temperature,warm or room temperature</li>
                     <li>6 Tablespoons(90ml)Grand Marnier*</li>
@@ -96,7 +135,7 @@
             <br/><br/>
         <tr>
             <td>
-                <h2 style="background-color: rgb(247, 158, 173);">Order Here!</h2>
+                <h2 id="title" class="box">Order Here!</h2>
             </td>
         </tr>
                     <form method="get">
@@ -119,8 +158,8 @@
                                 <label for="Creamy Tiramisu Cheesecake">Creamy Tiramisu Cheesecake</label>
                                 <br/>
                                 <h3>Choose your tiramisu size.</h3>
-                                <input type="checkbox" id="small" value="small" name="small">
-                                <label for="small">Small</label>
+                                <input type="checkbox" id="Small" value="Small" name="Small">
+                                <label for="Small" >Small</label>
                                 <input type="number" name="grade" min="1" max="5"     value="1">
                                 <br/>
                                 <input type="checkbox" name="medium" id="medium">
@@ -155,8 +194,6 @@
                         </tr>
                     </form>
                 </fieldset> 
-            
-        
     </table>
 </body>
 </html>
