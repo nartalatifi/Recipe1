@@ -44,6 +44,15 @@
         *{
             font-family: 'Inter Tight', sans-serif;
         }
+
+        .video{
+            color: rgb(252, 64, 64);
+        }
+
+        .hey{
+            line-height: 30px; 
+        }
+
     </style>
 </head>
 <body>
@@ -75,14 +84,14 @@
         </tr>
             <br/>
         <tr>
-            <td>
+            <td class="hey">
                 <strong>Tiramisu</strong> is a timeless no-bake Italian dessert combining espresso-dipped ladyfingers and a cremy lightly sweetened mascarphone cream.
             <br>
                 This recipe is from the late Maida Heatter and is easily the best homemade tiramisu recipe that I've ever tried.
             </td>
         </tr>
         <tr>
-            <td>
+            <td class="hey">
                 <p>
                     A couple months ago,I was sent into a new cookbook called Happiness is Baking.This cookbook includes Maida Heatter's favorite recipes with the foreword written by Dorie Greenspan.I,unsuprisingly,immediately fell in love with my newest cookbook.It's a collection of 100 foolproof and classic desserts including cookies,cakes,muffins,pies,tarts,and more that range from simple everyday cookies to outrageously chocolate souffle cake.
                 </p>
@@ -108,7 +117,7 @@
         </tr>
         <br/><br/>
         <tr>
-            <td>
+            <td class="hey">
                     <h3>Common Tiramisu Questions-Answered</h3>
                 <dl>
                     <dt><b>What kind of rum do I use in tiramisu?</b></dt>
@@ -143,30 +152,30 @@
                         <tr>
                             <td>  
                                 <h3>Choose your Tiramisu.</h3>
-                                <input type="checkbox" id="hot chocolate tiramisu"  value="hot chocolate tiramisu" name="hot chocolate tiramisu" >
-                                <label for="hot chocolate tiramisu">Hot Chocolate Tiramisu</label>
+                                <input type="checkbox" id="hot chocolate tiramisu"  value="hot chocolate tiramisu" name="hot chocolate tiramisu" class="hey">
+                                <label for="hot chocolate tiramisu" class="hey">Hot Chocolate Tiramisu</label>
                                     <br>
-                                    <input type="checkbox" id="white chocolate-strawberry tiramisu"  value="white chocolate-strawberry tiramisu" name="white chocolate-strawberry tiramisu" >
-                                <label for="hot chocolate tiramisu">White Chocolate-Strawberry Tiramisu</label>
+                                    <input type="checkbox" id="white chocolate-strawberry tiramisu"  value="white chocolate-strawberry tiramisu" name="white chocolate-strawberry tiramisu" class="hey">
+                                <label for="white chocolate tiramisu" class="hey">White Chocolate-Strawberry Tiramisu</label>
                                 <br>
-                                <input type="checkbox" id="spiced pumpkin tiramisu" value="spiced pumpkin tiramisu" name="spiced pumpkin tiramisu" >
-                                <label for="spiced pumpkin tiramisu">Spiced Pumpkin Tiramisu</label>
+                                <input type="checkbox" id="spiced pumpkin tiramisu" value="spiced pumpkin tiramisu" name="spiced pumpkin tiramisu" class="hey" >
+                                <label for="spiced pumpkin tiramisu" class="hey">Spiced Pumpkin Tiramisu</label>
                                 <br>
-                                <input type="checkbox" id="rich and creamy tiramisu" value="rish and creamy tiramisu" name="rish and creamy tiramisu"  >
-                                <label for="rich and creamy tiramisu">Rich and Creamy Tiramisu</label>
+                                <input type="checkbox" id="rich and creamy tiramisu" value="rish and creamy tiramisu" name="rish and creamy tiramisu" class="hey" >
+                                <label for="rich and creamy tiramisu" class="hey">Rich and Creamy Tiramisu</label>
                                 <br>
-                                <input type="checkbox" id="Creamy Tiramisu Cheesecake" value="Creamy Tiramisu Cheesecake" name="Creamy Tiramisu Cheesecake">
-                                <label for="Creamy Tiramisu Cheesecake">Creamy Tiramisu Cheesecake</label>
+                                <input type="checkbox" id="Creamy Tiramisu Cheesecake" value="Creamy Tiramisu Cheesecake" name="Creamy Tiramisu Cheesecake" class="hey">
+                                <label for="Creamy Tiramisu Cheesecake" class="hey">Creamy Tiramisu Cheesecake</label>
                                 <br/>
                                 <h3>Choose your tiramisu size.</h3>
                                 <input type="checkbox" id="Small" value="Small" name="Small">
                                 <label for="Small" >Small</label>
                                 <input type="number" name="grade" min="1" max="5"     value="1">
-                                <br/>
+                                <br><br>
                                 <input type="checkbox" name="medium" id="medium">
                                 <label for="medium">Medium</label>
                                 <input type="number" name="grade" min="1" max="5"     value="1">
-                                <br/>
+                                <br><br>
                                 <input type="checkbox" name="large" id="large">
                                 <label for="large">Large</label>
                                 <input type="number" name="grade" min="1" max="5"     value="1">
@@ -174,20 +183,20 @@
                                 <fieldset>    
                                     <legend><h3>Personal data.</h3></legend>
                                     <input type="text" name="Username"     placeholder="Username" minlength="3" maxlength="15">                        
-                                    <br/>                                      
-                                    <input type="text" name="Email" id="email"     placeholder="Email" required/>                            
-                                    <br/>                            
+                                    <br><br>
+                                    <input type="text" name="Email" id="email"     placeholder="Email"  required/>                            
+                                    <br><br>
                                     <input type="tel" id="phone" name="phone"     placeholder="Enter your phone number" required     pattern="\d{9}"/>                            
-                                    <br/>                            
+                                    <br><br>
                                     <input type="text" name="Address"     placeholder="Address"/>                          
-                                    <br/>                            
-                                    <input type="datetime-local"     placeholder="datetime-local">                            
-                                    <br/>                            
+                                    <br><br>
+                                    <input type="datetime-local"     placeholder="datetime-local"  >                            
+                                    <br><br>
                                     <textarea name="message" id="message" placeholder="Message:" rows="10" cols="30"></textarea>
                                 </fieldset> 
                                 <br>
-                                <a href="./video.html"><h4>#Video</h4></a>
-                                <a href="./location.html"><h4>#Location</h4></a>
+                                <a href="./video.html"><h4 class="video">#Video</h4></a>
+                                <a href="./location.html"><h4 class="video">#Location</h4></a>
                                 <br>
                                 <input type="submit" value="Done"/>
                                 <input type="reset" value="Reset"/> 
