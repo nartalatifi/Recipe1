@@ -1,14 +1,83 @@
     h1 { 
         font-size: 50px;
     background-color: rgb(140, 230, 140);
-    color: cadetblue
+    color: rgb(50, 105, 107);
+    padding-bottom: 20px;
+    border: 9px dotted rgb(99, 79, 79);
+    padding: 10px 5px 5px 10px;
+    text-shadow: 5px -3px 8px rgba(90, 90, 90, 0.816);
+    transform: skew(-10deg,0deg) ;
+    box-shadow: 20px 20px 20px rgb(50, 105, 107)
     }
+
 
     .cite{
         padding-left: 10px;
         padding-top: 5px; 
     }
+
+
     *{
         color:rgb(27, 01, 11);
     }
+
+
+    *{
+        background-color: aliceblue;
+    }
+
+
+    #title{
+        border: 5px solid rgb(99, 79, 79);
+    background-color: rgb(140, 230, 140);
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    }
+
+
+    p[class]{
+        color: rgb(224, 71, 105);
+    }
+
+
+    a[href^='https']{
+        color: rgb(32, 151, 111);
+    }
     
+
+    body{
+        margin: 0px 100px;
+    }
+
+
+    h1::first-letter{
+        font-size: 50px;
+    }
+
+
+    *{
+        font-family: 'Inter Tight', sans-serif;
+    }
+
+
+    .video{
+        color: rgb(252, 64, 64);
+    }
+
+
+    .hey{
+        line-height: 30px; 
+    }
+
+    ul{
+        list-style-type: circle;
+    }
+
+    img{
+        padding: 2px;
+        border: 2px solid green;
+
+    }
+
